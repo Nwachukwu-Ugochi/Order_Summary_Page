@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+background-color: rgb(176, 182, 250);
+font-family: 'Lucida Sans',
+'Lucida Sans Regular',
+'Lucida Grande',
+'Lucida Sans Unicode',
+Geneva,
+Verdana,
+sans-serif;
+height: 630px;
+
+
+
+}
+.container {
+    background-image: url('images/pattern-background-desktop.png');
+    background-repeat: no-repeat;
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    width: 100%;
+
+}
+.image{
+
+border-radius:10px ;
+position: relative;
+width: 350px;
+margin: 0 auto;
+margin: 30px auto;
+background-color: #fff;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+   rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.rounded{
+    border: 1px solid green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text{
+margin-top: 18px;
+text-align: center;
+
+}
+.paragraph{
+
+line-height: 1.5;
+    color: rgb(54, 53, 53);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px;
+}
+.content{
+justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(245, 243, 243);
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.link{
+margin-left:60px;
+}
+.links{
+text-decoration: none;
+color:rgb(55, 44, 199);
+font-size: 15px;
+font-weight: bolder;
+}
+.anual{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.pay{
+  width: 100%;
+  text-decoration: none;
+    background-color: rgb(55, 44, 199);
+    color: #fff;
+    padding: 15px 60px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.finals{
+   margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+
+}
+.final{
+    text-align: center;
+    padding: 30px;
+}
+.cancel{
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 15px;
+   color: #000;
+
+}
